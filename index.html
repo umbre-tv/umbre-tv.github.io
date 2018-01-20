@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<!-- Umbre-TV.com @ Pitesti, Romania, 15 December 2017 -->
+<html>
+
+<head>
+    <!-- Coding -->
+    <meta charset="UTF-8">
+
+    <!-- Title -->
+    <title>Umbre-TV.com</title>
+
+    <!-- Site Description -->
+    <meta name="description" content="Urmareste serialul romanesc Umbre in mod gratuit pe Umbre-TV.com!">
+
+    <!-- Import Google Icon Font -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- Roboto Font -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet">
+
+    <!-- Import materialize.css -->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+
+    <!-- Custom Theme -->
+    <link rel="stylesheet" href="theme/theme.css" />
+
+    <!-- Let browser know website is optimized for mobile -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--  Android 5 Chrome Color-->
+    <meta name="theme-color" content="#F44336">
+
+    <!-- Page Icon -->
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon" />
+
+</head>
+
+<body>
+
+    <div class="navbar-fixed">
+        <nav>
+            <div class="nav-wrapper">
+                <a class="brand-logo center"><i class="material-icons red-icon large-icon">personal_video</i></a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a onclick="unavailable()"><i class="material-icons left">info_outline</i>Informații</a></li>
+                    <li><a onclick="unavailable()"><i class="material-icons left">settings</i>Setări aspect</a></li>
+                    <li><a href="https://umbre-tv.com/episodes"><i class="material-icons left">list</i>Episoade</a></li>
+                </ul>
+                <ul class="left">
+                    <li><a onclick="unavailable()"><i class="material-icons left">event_note</i>Noutăți</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+    <div class="section no-pad-bot" id="index-banner">
+        <div class="container">
+            <br>
+            <br>
+            <h1 class="header center red-text">Umbre-TV.com</h1>
+            <div class="row center">
+                <h5 class="header col s12 light"><b>Urmărește serialul Umbre în mod gratuit!</b></h5>
+            </div>
+            <div class="row center fix-class-2">
+                <a href="/episodes" id="download-button" class="btn-large waves-effect waves-light red"><b>Vezi episoade</b></a>
+            </div>
+            <br>
+            <br>
+
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="section">
+
+            <div class="row">
+                <div class="col s12 m3">
+                    <div class="icon-block">
+                        <h2 class="center blue-text"><i class="material-icons large-icon">flash_on</i></h2>
+                        <h5 class="center">Rapiditate!</h5>
+                        <p class="light"><blockquote>Website-ul este construit folosind <b>MaterializeCSS</b>, un framework simplu și rapid! Acesta funcționează fluid pe orice dispozitiv.</blockquote></p>
+                    </div>
+                </div>
+
+                <div class="col s12 m3">
+                    <div class="icon-block">
+                        <h2 class="center green-text"><i class="material-icons large-icon">queue_play_next</i></h2>
+                        <h5 class="center">Instant!</h5>
+                        <p class="light"><blockquote>Nu trebuie să aștepți sau să distribui pagina pentru a încărca un episod. Acestea se vor încărca într-un timp scurt fiind găzduite pe acest server.</blockquote></p>
+                    </div>
+                </div>
+
+                <div class="col s12 m3">
+                    <div class="icon-block">
+                        <h2 class="center red-text"><i class="material-icons large-icon">not_interested</i></h2>
+                        <h5 class="center">Fără reclame!</h5>
+                        <p class="light"><blockquote><b>Umbre-TV.com</b> oferă conținutul disponibil în schimbul a nimic! Acum nu mai este nevoie să te ferești de reclamele enervante.</blockquote></p>
+                    </div>
+                </div>
+				
+                <div class="col s12 m3">
+                    <div class="icon-block">
+                        <h2 class="center amber-text"><i class="material-icons large-icon">cloud_download</i></h2>
+                        <h5 class="center">Descărcare!</h5>
+                        <p class="light"><blockquote>Prin intermediul acestui website poți descărca episoadele disponibile doar printr-un simplu click folosind browser-ul <b>Google Chrome</b>!</blockquote></p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <br>
+        <br>
+    </div>
+
+    <footer class="page-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col l6 s12">
+                    <h5 class="white-text"><i class="material-icons medium-icon">info_outline</i></h5>
+                    <p class="grey-text text-lighten-4"><strong>Umbre-TV.com</strong> îți oferă serialul <strong>Umbre</strong> pentru a fi vizionat în mod gratuit. Acest website nu conține reclame invazive de tip <strong>pop-out</strong>.</p>
+                </div>
+                <div class="col l4 offset-l2 s12">
+                    <h5 class="white-text"><i class="material-icons medium-icon">link</i></h5>
+                    <ul>
+                        <li><a class="grey-text text-lighten-3" href="https://ro.wikipedia.org/wiki/Umbre" target="_blank">Informații despre serial</a></li>
+                        <li><a class="grey-text text-lighten-3" href="https://hbogo.ro" target="_blank">HBO România</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container center">
+                Website creat de <strong>nu-știu-cine</strong> în Pitești, România.
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript (Always at the END for faster loading) -->
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+
+    <script>
+        function unavailable() {
+            alert("Opțiune indisponibilă momentan! Se lucrează la remedierea problemei.");
+        }
+    </script>
+
+</body>
+
+</html>
